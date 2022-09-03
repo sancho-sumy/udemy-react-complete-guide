@@ -13,10 +13,10 @@ function App() {
   };
   console.log(usersList);
   return (
-    <div>
+    <>
       <AddUser onUserAdd={addUserHandler} />
       <UsersList users={usersList} />
-    </div>
+    </>
   );
 }
 
